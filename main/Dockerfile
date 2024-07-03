@@ -4,7 +4,7 @@ RUN apt update
 
 RUN apt install python3-pip -y
 
-RUN mkdir /opt/
+RUN mkdir /opt/main
 
 COPY . /opt/main
 
